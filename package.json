@@ -11,9 +11,25 @@
     "ora": "^5.1.0"
   },
   "bin": {
-    "ch_rename": "./cli"
+    "ch_rename": "cli"
   },
   "scripts": {
     "start": "node main.js"
-  }
+  },
+  "description": "A simple node script that scrapes the title of a video from coursehunters website and renames the video files",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pSapien/node-coursehunters-videos-title-extractor.git"
+  },
+  "keywords": [
+    "cheerio",
+    "coursehunters",
+    "web",
+    "scraper"
+  ],
+  "bugs": {
+    "url": "https://github.com/pSapien/node-coursehunters-videos-title-extractor/issues"
+  },
+  "homepage": "https://github.com/pSapien/node-coursehunters-videos-title-extractor#readme"
 }
